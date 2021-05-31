@@ -1,0 +1,60 @@
+/* Grid display */
+
+form {
+    padding: 10px 0 10px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+.squares-grid {
+    display: grid;
+    width: 600px;
+}
+
+.square {
+    border: 1px solid gray;
+}
+
+.square.blue {
+    background: blue;
+}
+
+.squares-grid-5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.squares-grid-5 .square {
+    height: 120px;
+}
+
+.squares-grid-10 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.squares-grid-10 .square {
+    height: 60px;
+}
+
+.squares-grid-15 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.squares-grid-15 .square {
+    height: 40px;
+}
+
+/* Hovered squares list*/
+
+.hovered-title {
+    padding: 10px 0;
+}
+
+.hovered-list-item {
+    background: bisque;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
